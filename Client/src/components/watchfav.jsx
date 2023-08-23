@@ -7,7 +7,7 @@ const WatchFav = () => {
     let [fav, setfav] = useState([])
     useEffect(() => {
         let fetchdata = async () => {
-            let response = await axios.get('http://localhost:3001/favMovie')
+            let response = await axios.get('https://amazonprimeclone.onrender.com/favMovie')
             let data = response.data
             setfav(data)
         }

@@ -9,7 +9,7 @@ const Watch = () => {
     // axios.get(`http://localhost:3001/movie/${params._id}`)
     useEffect(()=>{
       let fetchdata=async()=>{
-        let response=await axios.get(`http://localhost:3001/movie`)
+        let response=await axios.get(`https://amazonprimeclone.onrender.com/movie`)
         console.log(response);
         let data=response.data
         setMovie(data)
@@ -20,7 +20,7 @@ const Watch = () => {
     let submit=(id)=>{
       movie.filter((x)=>{
         if(x._id==id){
-          axios.post('http://localhost:3001/favorite',x).then((res)=>{
+          axios.post('https://amazonprimeclone.onrender.com/favorite',x).then((res)=>{
             console.log(x);
            alert(res.data.message)
         })

@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 
 const Comedy = () => {
 let [comedy,setaction]=useState([])
-axios.get('http://localhost:3001/movie')
+axios.get('https://amazonprimeclone.onrender.com/movie')
 useEffect(()=>{
 let fetchdata=async()=>{
-    let response=await axios.get('http://localhost:3001/movie')
+    let response=await axios.get('https://amazonprimeclone.onrender.com/movie')
     let data=response.data
     let res=data.filter((a)=>a.gerne=="comedy")
     setaction(res)

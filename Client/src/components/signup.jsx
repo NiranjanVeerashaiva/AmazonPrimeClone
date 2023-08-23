@@ -13,7 +13,7 @@ const Signup = () => {
         let data={name:name.current.value,email:email.current.value,password:password.current.value,confirmpassword:confirmpassword.current.value}
 
            if(data.name && data.email && data.password && (data.password==data.confirmpassword)){
-       axios.post('http://localhost:3001/signup',data).then((res)=>{
+       axios.post('https://amazonprimeclone.onrender.com/signup',data).then((res)=>{
         alert(res.data.message)
         navigate('/login')
        })

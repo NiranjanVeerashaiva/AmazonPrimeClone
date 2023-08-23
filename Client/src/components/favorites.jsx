@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 const Favorites = () => {
     let params=useParams()
 let [fav,setfav]=useState([])
-axios.get('http://localhost:3001/favMovie')
+axios.get('https://amazonprimeclone.onrender.com/favMovie')
 useEffect(()=>{
 let fetchdata=async()=>{
-    let response=await axios.get('http://localhost:3001/favMovie')
+    let response=await axios.get('https://amazonprimeclone.onrender.com/favMovie')
     let data=response.data
     
     setfav(data)

@@ -9,7 +9,7 @@ const Login = () => {
     let submit=(a)=>{
         a.preventDefault()
         let data={email:email.current.value,password:password.current.value}
-        axios.post('http://localhost:3001/login',data).then((res)=>{
+        axios.post('https://amazonprimeclone.onrender.com/login',data).then((res)=>{
             alert(res.data.message)
             if(res.data.status==200){
                navigate('/home')

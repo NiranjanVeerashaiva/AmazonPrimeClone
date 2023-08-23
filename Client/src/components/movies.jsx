@@ -5,10 +5,10 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 const Movie = () => {
   let [movie, setMovie] = useState([])
-  axios.get('http://localhost:3001/movie')
+  axios.get('https://amazonprimeclone.onrender.com/movie')
   useEffect(() => {
     let fetchdata = async () => {
-      let response = await axios.get('http://localhost:3001/movie')
+      let response = await axios.get('https://amazonprimeclone.onrender.com/movie')
       console.log(response);
       let data = response.data
       setMovie(data)
