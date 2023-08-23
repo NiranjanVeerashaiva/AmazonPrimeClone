@@ -2,14 +2,14 @@
     background-color: black;
 } */
 .image img{
-    height: 90%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     
 }
 
 .content{
-    height: 115%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     top: 6%;
     right: 0%;
     position: absolute;
