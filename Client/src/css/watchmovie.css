@@ -1,0 +1,50 @@
+/* .watch{
+    background-color: black;
+} */
+.image img{
+    height: 90%;
+    width: 100%;
+    
+}
+
+.content{
+    height: 115%;
+    width: 100%;
+    top: 6%;
+    right: 0%;
+    position: absolute;
+    background: #1f3d4738;
+    background: linear-gradient(to right,black 45%,transparent 90%);
+    color: white;
+}
+.c{
+    transform: translateY(40%);
+    margin-left: 10%;
+    width: 50%;
+}
+.c h1{
+    font-size: 250%;
+    font-weight: bold;
+}
+.des{
+    margin-top: 5%;
+    font-size: 120%;
+}
+.det{
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.765);
+}
+.fav{
+    margin: 0% 1%;
+    border-radius: 4%;
+    border: none;
+    background-color: rgb(121, 227, 226);
+}
+.wa{
+    margin: 0% 1%;
+    border-radius: 4%;
+    border: none;
+    background-color: rgb(99, 219, 105);
+}
+
+

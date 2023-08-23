@@ -1,0 +1,119 @@
+.body1{
+    background:linear-gradient(to right ,black 45%,transparent 88%), url(https://www.91-cdn.com/hub/wp-content/uploads/2021/06/Amazon-Prime-video-plans.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 13% 0%;
+}
+.bodytext h1{
+    color: white;
+    font-weight: 200;
+}
+.bodytext h4{
+    margin: 3% 0%;
+    color: white;
+}
+.bodytext{
+    transform: translate(15%);
+    width: 45%;
+    text-align: start;
+}
+.bodytext button{
+    width: 40%;
+    padding: 1% 0%;
+    border: none;
+    color: white;
+    border-radius: 3%;
+    background-color: rgb(41, 122, 133);
+}
+.body2{
+    background-image:linear-gradient(to left, #000 45%, transparent 60%), url(https://cdn.mos.cms.futurecdn.net/NHNFJ3npPLC4dGGrRcuXy-1200-80.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 13% 0%;
+}
+.bodytext2 {
+    text-align: start;
+    transform: translate(120%);
+    width: 45%;
+}
+.bodytext2 h1{
+    color: white;
+    font-weight: 200;
+}
+.bodytext2 h4{
+    margin: 3% 0%;
+    color: white;
+}
+.bodytext2 button{
+    width: 40%;
+    padding: 1% 0%;
+    border: none;
+    color: white;
+    border-radius: 3%;
+    background-color: rgb(41, 122, 133);
+}
+.body3{
+    transform:translateY(0%);
+}
+.body3lefts{
+    text-align: start;
+    padding: 10% 0%;
+    transform: translate(10%);
+}
+.body3lefts h1{
+    font-weight: 200;
+    color: black;
+}
+.body3lefts h4{
+    font-weight: 200;
+    color: black;
+}
+.body3rights{
+   padding: 0% 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.body3rights button{
+    height: 20%;
+    width: 30%;
+    margin: 2% 1%;
+    border: none;
+    background: linear-gradient(to left, rgb(74, 87, 112) 40%,rgba(0, 119, 255, 0.387) );
+    color: white;
+}
+.body3rights button:hover{
+    transform: scale(1.05);
+    box-shadow: 0% 0% 10% black;
+}
+.body4{
+    background-image:linear-gradient(to left ,#000 55%,transparent 68%), url(https://muvit.in/wp-content/uploads/2022/04/Remote-Control-2-2.jpg);
+    /* padding: 10% 0%; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bodytext4 {
+    padding: 10% 0%;   
+    transform: translate(100%);
+    width: 48%;
+    text-align: start;
+}
+.bodytext4 h1{
+    color: white;
+    font-weight: 200;
+}
+.bodytext4 h4{
+    color: white;
+    font-weight: 200;
+}
+.bodytext4 button{
+    width: 40%;
+    padding: 1% 0%;
+    border: none;
+    color: white;
+    border-radius: 3%;
+    background-color: rgb(41, 122, 133);
+}
+

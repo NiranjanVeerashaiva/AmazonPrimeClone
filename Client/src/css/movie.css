@@ -1,0 +1,35 @@
+
+.movie1 marquee{
+   background-color: yellow;
+    height: 15%;
+   font-weight: 600;
+} 
+.mov{
+    display: flex;
+    flex-wrap: wrap;
+}
+.MOV img{
+    height: 80%;
+    width: 115%;
+}
+.MOV h3{
+    color: white;
+    transform: translate(10%);
+    font-size: 100%;
+}
+ .mov img:hover{
+    transform: scale(1.3);
+    transition: 1s;
+    z-index: 2;
+}  
+.movie1{
+    background-color: black;
+    height: 100vh;
+}
+.MOV{
+    width: 20%;
+    margin: 1% 2%;
+}
+.movie1{
+    padding-bottom: 30%;
+}

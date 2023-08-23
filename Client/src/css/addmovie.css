@@ -1,0 +1,36 @@
+.add{
+        background-image: url(https://images.hindustantimes.com/tech/rf/image_size_960x540/HT/p2/2020/04/02/Pictures/amazon-prime_27a68f2c-74ac-11ea-b308-ad7e0b841a10.jpg);
+        height: 100vh;
+        width: 100vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.addmovie{
+    height: 85%;
+    width: 60%;
+    background-color: rgba(53, 63, 43, 0.876);
+   box-shadow: 0% 0% 50% black;
+   text-align: center;
+   border-radius: 5%;
+    margin-left: 20%;
+    transform: translateY(2%);
+}
+.addmovie form{
+    width: 20%;
+    text-align: start;
+    transform: translate(90%);
+}
+.addmovie input{
+    margin: 10% 0%;
+    border: none;
+    width: 300%;
+}
+.addmovie button{
+    border: none;
+    background-color: black;
+    color: white;
+}
+.addmovie a{
+    text-decoration: none;
+}

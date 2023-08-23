@@ -1,0 +1,28 @@
+.welcome img{
+    height: 100%;
+    width: 100%;
+}
+.welcome marquee{
+    height: 7%;
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    color: white;
+    font-size: 125%;
+    color: black;
+    font-weight: bold; 
+    
+}
+.welcome span{
+    height: 100%;
+    width: 100%;
+    top: 40px;
+    right: 0px;
+    position: absolute;
+    color: white;
+    font-size: 400%;
+    color: transparent;
+}
+.welcome marquee{
+    background-color: yellow;
+}
